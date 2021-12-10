@@ -1,0 +1,210 @@
+/*Estilo de la letra*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins',sans-serif;
+}
+/* Estilos del login */
+.CuerpoLog{
+    margin: 0 auto;
+    padding: 0;
+    background: #ff9e0c;
+    background: linear-gradient(to bottom, #1f232b,#f5f6f8);
+}
+.imgLog{
+    /* height: 685px;
+    width: 600px; */
+    background-image: url(../img/Setup\ gamer.jpg);
+    background-position: center center;
+}
+/*Header de la pagina para computadoras*/
+.navbar{
+    font-size: 17px !important;
+    text-align: center;
+    top: 0;
+    left: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.Nav_Admi{ /*Estilos barra de administrador*/
+    font-size: 15px;
+    text-align: center;
+    top: 0;
+    left: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.Nav_Admi ul li{
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 0 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: black;
+    transition: all .25s ease;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #ff841f;
+}
+/*Boton de despliegue para celular*/
+.navbar-light .navbar-toggler{
+    border: none;
+    outline: none;
+}
+.Roll-out_bar{
+    /*padding: 5px 15px 5px 15px;*/
+    border-radius: 10%;
+    color: black;
+    transition: all .25s ease;
+}
+.Roll-out_bar:hover{
+    color: #ff841f;
+}
+/*Boton de busqueda de la Navbar*/
+.botonBusqueda{
+    font-size: 16px;
+    color: black;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all .25s ease;
+}
+.botonBusqueda:hover{
+    background-color: #ff841f;
+}
+/*Boton de Carrito de Compras*/
+.ShopingCar{
+    font-size: 20px;
+    margin-left: 2px;
+    color: black;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all .25s ease;
+}
+.ShopingCar:hover{
+    color: #ff841f;
+}
+
+/* Estilos para la seccion de productos */
+.Prod_Seccion .producto img{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+/* Estilos de la seccion de noticias y galeria */
+#News-container .post .News-img{
+    overflow: hidden;
+    cursor: default;
+}
+#News-container .post img{
+transition: .4s ease;
+}
+#News-container .post:hover img{
+    transform: scale(1.2) rotate(-5deg);
+    opacity: .8;
+}
+#News-container .post h3{
+    transition: .4s ease;
+}
+#News-container .post:hover h3{
+    color: #ff841f;
+}
+#Fotos-container .post .Fotos-img .Alto{
+    height: 410px;
+}
+#News-container .post .News-img .Alto{
+    height: 410px;
+}
+/* Estilos de la seccion del Carrito de compras */
+#carro-Container table{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+#carro-Container table thead{
+    font-weight: 700;
+}
+#carro-Container table thead td{
+    background-color:#1f232b;
+    
+    color: #f9e4b7;
+    border: none;
+    padding: 6px 0;
+}
+#carro-Container table td{
+    border:  1px solid #1f232b;
+    text-align: center;
+}
+#carro-Container table td:nth-child(1){
+    width: 100px;
+}
+#carro-Container table td:nth-child(2),
+#carro-Container table td:nth-child(3){
+    width: 200px;
+}
+#carro-Container table td:nth-child(4),
+#carro-Container table td:nth-child(5),
+#carro-Container table td:nth-child(6){
+    width: 170px;
+}
+#carro-Container table tbody img{
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+}
+#carro-Container table tbody i{
+    color: #1f232b;
+}
+#carro-cobro .cupon>div,
+#carro-cobro .total>div {
+    border: 1px solid #1f232b;
+}
+#carro-cobro .cupon h5,
+#carro-cobro .total h5{
+    background-color:#1f232b;
+    color: #f9e4b7;
+    border: none;
+    padding: 6px 12px;
+    font-weight: 700
+}
+#carro-cobro .cupon p,
+#carro-cobro .cupon input{
+    padding: 0 12px;
+}
+#carro-cobro .cupon input{
+    height: 44px;
+    margin: 0 0 20px 12px;
+}
+#carro-cobro .total div>div{
+    padding: 0 12px  ;
+}
+.segundo-hr{
+    background: #1f232b;
+    width: 100%;
+    height: 1px;
+}
+/* #carro-cobro .total div>button{
+    margin: 0 12px 20px 0; display: flex; justify-content: flex-end;
+} */
+#carro-cobro .total button,
+#carro-cobro .cupon button{
+    background-color: #1f232b;
+    color: #f9e4b7;
+    border: 1px solid transparent;
+    padding: 2px 5px;
+    transition: all .3s ease;
+}
+#carro-cobro .total button:hover,
+#carro-cobro .cupon button:hover{
+    background-color: #1f232b;
+    color: #ff841f;
+    border: 1px solid transparent;
+    padding: 2px 5px;
+}

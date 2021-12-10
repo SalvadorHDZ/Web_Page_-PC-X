@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Uso de CSS con Bootstrap-->
+        <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="../libs/bootstrap/css/">
+        <!--Uso de FontAwesome-->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+        crossorigin="anonymous"/>
+        <!--Documento de estilos-->
+        <link rel="stylesheet" href="../CSS/Estilo.css">
+        <link rel="stylesheet" href="../CSS/publicidad.css">
+        <link rel="stylesheet" href="../CSS/News.css">
+        <link rel="stylesheet" href="../CSS/Ventas_dest.css">
+        <link rel="stylesheet" href="../CSS/Promo.css">
+        <link rel="stylesheet" href="../CSS/Footer.css">
+        <title>PC X.</title>
+    </head>
+
+    <body>
+        <!--Barra de navegacion de la pagina-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
+            <div class="container-xl">
+                <!--Seccion del Logo de la pagina -->
+                <img style="height: 55px;" src="img/Logotipo_1.png" alt="LogotipoPS_X."> <!--logotipo de la pagina-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="Roll-out_bar"><i class="fas fa-align-justify"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <!--Barra de navegacion Links-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Galeria</a>
+                        </li>
+                        <!--Busqueda de la pagina-->
+                        <form class="d-flex">
+                            <input class="form-control" type="Busqueda" placeholder="Busqueda">
+                            <button class="btn botonBusqueda" type="submit"><i class="fal fa-search"></i></button>
+                        </form>
+                        <li class="nav-item"><!--Carrito de compras-->
+                            <a class="nav-link" href="#"><i class="fal fa-shopping-cart ShopingCar"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inicia Sesión</a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+        
+        <!--Seccion de publicidad/ventas-->
+        <section id="Home">
+            <div class="container">
+                <h5>Adentrate al GAMING</h5>
+                <h1><span>Mejores Marcas</span> Para juegos</h1>
+                <p>
+                    El momento es ahora, prueba las mejores marcas <br>
+                    a los mejores precios este año.
+                </p>
+                <button>Productos</button>
+            </div>
+        </section>
+        
+        <!--Marcas de la pagina-->
+        <section id="marcas">
+            <div class="renglon m-0 py-2">
+                <img class="img-fluid col-lg-1 col-md-4 col-6" src="../img/Marcas/Asus_Rog_Logo.png" alt="ASUS">
+                <img class="img-fluid col-lg-1 col-md-4 col-6" src="../img/Marcas/EVGA_Logo.png" alt="EVGA">
+                <img class="img-fluid col-lg-1 col-md-4 col-6" src="../img/Marcas/Razer_Logo.png" alt="RAZER">
+                <img class="img-fluid col-lg-1 col-md-4 col-6" src="../img/Marcas/AMD_Logo.png" alt="AMD">
+                <img class="img-fluid col-lg-1 col-md-4 col-6" src="../img/Marcas/Aorus_Logo.png" alt="AORUS">
+                <img class="img-fluid col-lg-1 col-md-4 col-6" src="../img/Marcas/Intel_Logo.png" alt="AORUS">
+            </div>
+        </section>
+        
+        <!--Seccion de Noticias-->
+        <section id="News" class="w-100 ">
+            <div class="row p-0 m-0">
+                <div class="one col-lg-4 col-md-12 col-12 p-0">
+                    <img class="img-fluid p-0 m-0" src="../img/News/Ensamble_PC.jpg" alt="Ensamble_PC">
+                    <div class="detalles p-0 m-0">
+                        <h2>Ensamble Gratuito!</h2>
+                        <p>En la compra de todos los componentes <br>
+                        de una computadora de Escritorio.</p>
+                        <button class="text-uppercase">Productos</button>
+                    </div>
+                </div>
+                <div class="one col-lg-4 col-md-12 col-12 p-0">
+                    <img class="img-fluid p-0 m-0" src="../img/News/Tarjetas Grafcias-arrived.jpeg" alt="Tarjeta_Grafica">
+                    <div class="detalles p-0 m-0">
+                        <h2>Nuevas Tarjetas Graficas</h2>
+                        <p>La nueva generacion de Tarjetas Graficas<br>
+                        esta a punto de llegar.</p>
+                        <button class="text-uppercase">Productos</button>
+                    </div>
+                </div>
+                <div class="one col-lg-4 col-md-12 col-12 p-0">
+                    <img class="img-fluid p-0 m-0" src="../img/News/Luces RGB.png" alt="Luces RGB">
+                    <div class="detalles p-0 m-0">
+                        <h2>Ponle color a tu juego</h2>
+                        <p>Ya disponible set de luces RGB para tu Setup Gamer,<br>
+                        te daran un area de juego mas calida.</p>
+                        <button class="text-uppercase">Productos</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--Seccion de Ventas Destacadas 1-->
+        <section id="Ventas" class="my-5 pb-5">
+            <div class="container text-center mt-5 py-5">
+                <h3>Ventas Destacadas</h3>
+                    <hr class="mx-auto">
+                    <p>Estos son los productos mas vendidos</p>
+            </div>
+            <div class="row mx-auto container-fluid">
+                <div class="producto text-center col-lg-3 col-md-4 col-12">
+                    <img class="img-fluid mb-3" src="Images/Uploads/Ventas Destacadas/Procesador-i9_Intel.jpg" alt="Imagen_Producto">
+                    <div class="calificacion"> <!--Calificacion en Estrellas-->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="pro-name">Intel i9 9na Gen</h5>
+                    <h4 class="pro-precio">$9,500.00</h4>
+                    <button class="btn-compra">Comprar</button>
+                </div>
+                <div class="producto text-center col-lg-3 col-md-4 col-12">
+                    <img class="img-fluid mb-3" src="Images/Uploads/Ventas Destacadas/Mouse-Gamer-Logitech-G502.jpg" alt="Imagen_Producto">
+                    <div class="calificacion"> <!--Calificacion en Estrellas-->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="pro-name">Logitech G502 Hero</h5>
+                    <h4 class="pro-precio">$1,800.00</h4>
+                    <button class="btn-compra">Comprar</button>
+                </div>
+                <div class="producto text-center col-lg-3 col-md-4 col-12">
+                    <img class="img-fluid mb-3" src="Images/Uploads/Ventas Destacadas/Tarjeta_3080.jpg" alt="Imagen_Producto">
+                    <div class="calificacion"> <!--Calificacion en Estrellas-->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="pro-name">MSI Gaming GeForce RTX 3060</h5>
+                    <h4 class="pro-precio">$28,800.00</h4>
+                    <button class="btn-compra">Comprar</button>
+                </div>
+                <div class="producto text-center col-lg-3 col-md-4 col-12">
+                    <img class="img-fluid mb-3" src="Images/Uploads/Ventas Destacadas/Fuente_de_Poder-EVGA.jpg" alt="Imagen_Producto">
+                    <div class="calificacion"> <!--Calificacion en Estrellas-->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="pro-name">EVGA 1000W G5 Gold</h5>
+                    <h4 class="pro-precio">$5,700.00</h4>
+                    <button class="btn-compra">Comprar</button>
+                </div>
+            </div>
+        </section>
+        
+        <!--Seccion Para venta/promocion-->
+        <section id="Promo" class="my-5 py-5">
+            <div class="container">
+                <h4>Actualiza tu SetUp Gaming</h4>
+                <h1><span>No te quedes atras y</span><br> 
+                    consigue la victoria</h1>
+                <button class="texte-uppercase">Productos</button>
+            </div>
+        </section>
+        
+        <!--Seccion de Ventas Destacadas 2-->
+        <section id="Ventas" class="my-5 py-1">
+            <div class="container text-center mt-5 py-5">
+                <h3>No te pierdas estos productos</h3>
+                    <hr class="mx-auto">
+                    <p>Los mejores precios del mercado</p>
+            </div>
+            <div class="row mx-auto container-fluid py-4">
+                <div class="producto text-center col-lg-3 col-md-4 col-12">
+                    <img class="img-fluid mb-3" src="Images/Uploads/Ventas Destacadas/amd ryzen 5_2.jpg" alt="Imagen_Producto">
+                    <div class="calificacion"> <!--Calificacion en Estrellas-->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="pro-name">AMD Razen 5 5600X</h5>
+                    <h4 class="pro-precio">$6,800.00</h4>
+                    <button class="btn-compra">Comprar</button>
+                </div>
+                <div class="producto text-center col-lg-3 col-md-4 col-12">
+                    <img class="img-fluid mb-3" src="Images/Uploads/Ventas Destacadas/Razer Deathadder V2 Img_2.jpg" alt="Imagen_Producto">
+                    <div class="calificacion"> <!--Calificacion en Estrellas-->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="pro-name">Razer Deathadder V2</h5>
+                    <h4 class="pro-precio">$1,090.00</h4>
+                    <button class="btn-compra">Comprar</button>
+                </div>
+                <div class="producto text-center col-lg-3 col-md-4 col-12">
+                    <img class="img-fluid mb-3" src="Images/Uploads/Ventas Destacadas/Hyperx Alloy Fps Pro_2.png" alt="Imagen_Producto">
+                    <div class="calificacion"> <!--Calificacion en Estrellas-->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="pro-name">Teclado HyperX Alloy FPS Pro</h5>
+                    <h4 class="pro-precio">$2,860.00</h4>
+                    <button class="btn-compra">Comprar</button>
+                </div>
+                <div class="producto text-center col-lg-3 col-md-4 col-12">
+                    <img class="img-fluid mb-3" src="Images/Uploads/Ventas Destacadas/Tarjeta_2060_2.jpg" alt="Imagen_Producto">
+                    <div class="calificacion"> <!--Calificacion en Estrellas-->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h5 class="pro-name">MSI Gaming GeForce RTX 2060 6GB</h5>
+                    <h4 class="pro-precio">$24,999.00</h4>
+                    <button class="btn-compra">Comprar</button>
+                </div>
+            </div>
+        </section>
+        
+        <!--Footer de la pagina-->
+        <footer class="mt-5 py-5">
+            <div class="row container mx-auto pt-5">
+                <div class="footer-one col-lg-3 col-md-6 col-12">
+                    <img style="height: 55px;" src="/Images/Uploads/Logotipo_2.png" alt="LogotipoPS_X.">
+                    <p class="pt-3">Computadoras y Accesroios PC X.®</p>
+                </div>
+                <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+                    <h5 class="pb-2">Apartados</h5>
+                    <ul class="texte-uppercase list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Productos</a></li>
+                        <li><a href="#">Galeria</a></li>
+                        <li><a href="#">Sugerencias</a></li>
+                    </ul>
+                </div>
+                <div class="footer-one col-lg-3 col-md-6 col-12">
+                    <h5>Contactanos</h5>
+                    <div>
+                        <h6>Telefono</h6>
+                        <p>444-110-87-60 ó 444-809-5243</p>
+                    </div>
+                </div>
+                <div class="footer-one col-lg-3 col-md-6 col-12">
+                    <div>
+                        <h6>Direccion</h6>
+                        <p>Enrique Contreras #708 <br> 
+                        Col.Arboleda C.P 78456 <br>
+                        Guadalajara, Jalisco, México</p>
+                    </div>
+                    <div>
+                        <h6>Email</h6>
+                        <p>ventas@PCX.mx</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Derechos mt-5">
+                <div class="row container mx-auto">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <img style="width: 195px; background-color: rgba(249,228,183,0.3);" src="/Images/Uploads/Pagos_Img.png" alt="PagosAceptados">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 text-nowrap">
+                        <p>PC X. eCommerce © 2021.All Right Reserved</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="../libs/bootstrap/js/bootstrap.min.js"></script> <!--uso de Java con Bootstrap.-->
+    </body>
+</html>
+
+<!--Tareas de Calculo 2,5,6,7,8,9-->

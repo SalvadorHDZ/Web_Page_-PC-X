@@ -1,0 +1,47 @@
+/*Estilo de la letra*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#Ventas h3{
+    color: #ff841f;
+}
+
+.producto{
+    margin-bottom: 2rem;
+}
+.producto img{
+    transition: all .3s;
+}
+.producto:hover img{
+    opacity: .8;
+}
+hr{
+    width: 400px;
+    height: 2px;
+    color: #ff841f;
+}
+/*Boton de Compra*/
+.producto .btn-compra{
+    border: none;
+    padding: 9px 13px;
+    border-radius: 5%;
+    background-color: #ff841f;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: all .3s;
+}
+.producto:hover .btn-compra{ /*Trabajar el hover de la imagen*/
+    transform: translateY(0);
+    opacity: 1;
+}
+.producto .btn-compra:hover{/*Trabaja solo el boton de compra*/
+    color: #ff841f;
+    background-color: #2a2a2a;
+}
+/*Estrellas de Productos*/
+#Ventas .calificacion .fas{
+    font-size: 13px;
+    color: goldenrod;
+}
+#Ventas .calificacion{
+    padding: 3px 0;
+}

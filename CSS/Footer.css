@@ -1,0 +1,47 @@
+/*Estilo de la letra*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+footer{
+    background-color: #2a2a2a;
+}
+footer h5{
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+footer li{
+    padding-bottom: 4px;
+}
+footer li a{
+    font-size: .8rem;
+    color: white;
+}
+footer li a:hover{
+    color: #ff841f;
+}
+footer h6{
+    color: #ff841f;
+}
+.footer-one p{
+    font-size: 14px;
+    color: #f9e4b7;
+}
+.Derechos p{
+    font-size: 16px;
+    color: #f9e4b7;
+}
+.Derechos a i{
+    color: #2a2a2a;
+    width: 38px;
+    height: 38px;
+    background-color: #f9e4b7;
+    display: inline-block;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    margin: 0 5px;
+    transition: all .3s ease;
+}
+.Derechos a i:hover{
+    background-color: #ff841f;
+}

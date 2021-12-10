@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.Cuerpo-Reg{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    background-color:#f5f6f8;
+    color: #ffff;
+    /* background: linear-gradient(to bottom, #1f232b,#f5f6f8); */
+    letter-spacing: .05rem;
+}
+.bg-light{
+    background-color: #ffff;
+}
+.bg-dark{
+    background-color: #15181f;
+}
+.p-6{
+    padding: 4rem 7rem;
+}
+.contact-box{
+    padding: 3.5rem;
+}
+.btn-outline-dark{
+    border: 2px solid #1f232b;
+}
+.inp{
+    background-color: #1f232b;
+    border: 2px solid #1f232b;
+    border-radius: .2rem;
+    padding: 1.2rem 1rem;
+}
+.register-bg{
+    background-image: url("../img/Gabinete.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.btn_izq{
+    margin-right:20px;
+    border: 1px solid transparent;
+}
+.btn-Reg{
+    outline: none;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+.btn-Reg a{
+    outline: none;
+    text-decoration: none;
+    font-family: 'poppins',sans-serif;
+    color:white;
+    border: 1px solid transparent;
+}
+@media (max-width: 575.98px){
+    .p-6{
+        padding: 2rem;
+    }
+    .contact-box{
+        padding: 0;
+    }
+    .width-100{
+        width: 100%;
+    }
+}
+@media (max-width: 1100px){
+    .register-bg{
+        min-height: 50vh;
+    }
+}
